@@ -19,4 +19,38 @@ body {
   width: 20%;
   height: 55%;
   border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#display {
+  width: 90%;
+  height: 20%;
+  border: solid black 2px;
+  margin: 14px;
+}
+
+#buttons-section {
+  width: 90%;
+  height: 70%;
+  /* border: solid black 2px; */
+  display: flex;
+}
+
+#left-buttons-panel {
+  width: 75%;
+  height: 100%;
+  /* border: solid black 2px; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#left-buttons-panel > .button {
+  border: solid black 2px;
+  width: 60px;
+  height: 60px;
 }
