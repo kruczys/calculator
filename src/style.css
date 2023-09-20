@@ -3,6 +3,7 @@ body {
   width: 100vw;
   height: 100vh;
   font-family: "Archivo Black", sans-serif;
+  /* font-family: "Chakra Petch", sans-serif; */
 }
 
 .app {
@@ -12,6 +13,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#top-section {
+  font-size: 2em;
 }
 
 #main-calc-section {
@@ -28,25 +33,43 @@ body {
   width: 90%;
   height: 20%;
   border: solid black 2px;
+  border-radius: 6px;
   margin: 14px;
+  font-family: "Chakra Petch", sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#display-content {
+  font-size: 2em;
+  margin: 0.3em;
 }
 
 #buttons-section {
   width: 90%;
   height: 70%;
-  /* border: solid black 2px; */
+  border-radius: 6px;
   display: flex;
+  justify-content: center;
 }
 
 #left-buttons-panel {
-  width: 75%;
+  width: 100%;
   height: 100%;
-  /* border: solid black 2px; */
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
   justify-content: space-between;
   align-items: center;
+}
+
+.button {
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
 }
 
 #left-buttons-panel > .button {
