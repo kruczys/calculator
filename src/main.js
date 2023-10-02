@@ -1,7 +1,10 @@
 import operate from "./calculate.js";
+import populate from "./populateDisplay.js";
 
-// const operator = prompt("operator");
-// const rightNum = +prompt("right");
-//
-//
-// console.log(operate(leftNum, operator, rightNum));
+const buttons = document.querySelectorAll(".num-button");
+
+buttons.forEach((button) => {
+  button.addEventListener("click", () => {
+    populate(button.id);
+  });
+});

@@ -37,11 +37,18 @@ body {
   margin: 14px;
   font-family: "Chakra Petch", sans-serif;
   display: flex;
+  flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
 }
 
-#display-content {
+#upper-disp-content {
+  font-size: 1em;
+  margin: 0.3em;
+  align-self: flex-start;
+}
+
+#mid-disp-content {
   font-size: 2em;
   margin: 0.3em;
 }
