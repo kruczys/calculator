@@ -1,6 +1,6 @@
-const populateDisplay = (value) => {
+const populateMainDisplay = (value) => {
   const display = document.querySelector("#mid-disp-content");
   display.textContent += value;
 };
 
-export default populateDisplay;
+export default populateMainDisplay;
