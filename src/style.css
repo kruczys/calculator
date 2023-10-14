@@ -77,10 +77,13 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 2em;
-}
-
-#left-buttons-panel > .button {
-  border: solid black 2px;
+  border: solid #060504 2px;
   width: 60px;
   height: 60px;
+}
+
+
+#delete-button {
+  width: 400%;
+  background-color: #d83c32;
 }

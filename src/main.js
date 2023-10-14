@@ -1,10 +1,10 @@
 import operate from "./calculate.js";
-import populate from "./populateDisplay.js";
+import populateDisplay from "./populateDisplay.js";
 
 const buttons = document.querySelectorAll(".num-button");
 
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
-    populate(button.id);
+    populateDisplay(button.id);
   });
 });
